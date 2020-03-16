@@ -1,0 +1,721 @@
+* {
+  box-sizing: content-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width = 100%;
+  margin: 0;
+  background-color: #f2f4f7;
+}
+
+.content {
+    width: 80%;
+    max-width: 1170px;
+    min-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.logo img {
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+.main-menu li {
+
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.main-menu ul {
+   float: right;
+   margin-right: 0;
+   padding: 0;
+   margin-top: 0;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #1e272e;
+  text-transform: uppercase;
+}
+
+.main-menu a:hover {
+  color: #3c40c6;
+}
+
+.mainTitle {
+  height: 100vh;
+}
+
+.header {
+  height: 20%;
+  margin-top: 0;
+}
+.opening {
+  height: 65%;
+}
+
+.opening p {
+  width: 60%;
+  color: #1e272e;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 2;
+}
+
+.opening h1 {
+  padding-top:10%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.opening h2 {
+  color: #1e272e;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+ .chemex {
+  margin: 0;
+  padding-left: 10px;
+  bottom: 10vh;
+  float: right;
+  height: auto;
+  width: auto;
+  max-width: 1000px;
+  max-height: 65vh;
+}
+
+.go-actualities {
+  background-color: #3c40c6;
+  height: 15%;
+  margin: 0;
+}
+
+.go-actualities p {
+  margin: 0;
+  padding: 3.5%;
+  text-align: center;
+  color: #f2f4f7;
+  font-size: 16px;
+}
+
+.go-actualities a {
+  text-decoration: none;
+}
+
+.go-actualities p:hover {
+  background-color: #1f2282;
+}
+
+.opening .btn {
+  text-decoration: none;
+  color: #f2f4f7;
+  border: none;
+  padding: 15px 20px;
+  background-color: #3c40c6;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+#showMe1 {
+  background-color: white;
+}
+
+#showMe2 {
+  background-color: white;
+
+}
+
+#showMe3 {
+  background-color: white;
+
+}
+#aktuality .team {
+    cursor: pointer;
+    margin: 0;
+    padding: 3.5%;
+    text-align: center;
+    font-size: 10px;
+    color: #1e272e;
+}
+
+#aktuality .team:hover {
+  color: #1f2282;
+}
+
+#aktuality {
+  text-align: center;
+}
+
+#aktuality p {
+
+  margin: 0;
+  padding: 3.5%;
+  text-align: center;
+  color: #f2f4f7;
+  font-size: 16px;
+}
+
+#aktuality h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#aktuality p {
+  line-height: 2;
+  color: #1e272e;
+  padding-bottom: 20px;
+}
+
+#aktuality .button2 {
+  background-color: #3c40c6;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 2px;
+}
+
+#showMe1 strong {
+  margin-right: 15px;
+  font-style: normal;
+}
+#showMe1 p {
+  font-style: italic;
+}
+
+#showMe2 strong {
+  margin-right: 15px;
+  font-style: normal;
+}
+#showMe2 p {
+  font-style: italic;
+}
+
+#showMe3 strong {
+  margin-right: 15px;
+  font-style: normal;
+}
+#showMe3 p {
+  font-style: italic;
+}
+
+#aktuality .button2:hover {
+  background-color: #1f2282;
+}
+
+.zamestnanci-tabulka {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 280px;
+    font-size: 15px;
+    color: #353d53;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.zamestnanci-tabulka h3{
+    background-color: #1e272e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.zamestnanci-tabulka img {
+  width: 200px;
+  height: 200px;
+}
+
+.zamestnanec-detail ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 3;
+}
+
+#novinky h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+#novinky li {
+    border-left: 4px solid #3c40c6;
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+#novinky strong {
+  padding-right: 16px;
+}
+
+.prevadzky-produkty h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.prevadzky-produkty {
+  text-align: center;
+}
+
+.prevadzky-produkty .button2 {
+  background-color: #3c40c6;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.prevadzky-produkty .button2:hover {
+  background-color: #1f2282;
+}
+
+.prevadzky-produkty p {
+  line-height: 2;
+  color: #1e272e;
+  padding-bottom: 20px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.prevadzky {
+  width: 50%;
+  float: left;
+}
+
+.produkty {
+  width: 50%;
+  display: inline-block;
+}
+
+.quote {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #c6c6c6;
+}
+.quote q {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.quote q:hover {
+  color: #1e272e;
+}
+.kontakt-page {
+    background-image: url("img/kontakt-bg.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    color: #f2f4f7;
+}
+
+.kontakt-page a {
+  text-decoration: none;
+  color: #f2f4f7;
+}
+
+.kontakt-page address {
+  line-height: 1.6;
+}
+
+.kontakt-vlavo {
+  margin-top: 12%;
+  display: inline-block;
+  width: 30%;
+  float: left;
+  border: 1px;
+  border-style: solid;
+  padding-bottom: 20px;
+}
+
+.kontakt-vpravo {
+  float: right;
+  margin-top: 12%;
+  width: 50%;
+  display: inline-block;
+  border: 1px;
+  border-style: solid;
+  padding-bottom: 20px;
+}
+
+.kontakt-vpravo .submit {
+  color: black;
+}
+
+.mapa h2{
+  margin: 40px;
+}
+
+.mapa li {
+  color: #1e272e;
+  line-height: 1.6;
+  list-style-type:disc;
+  text-decoration: none;
+}
+
+.mapa li a {
+  text-decoration: none;
+  color: #1e272e;
+  text-transform: uppercase;
+}
+
+.mapa li a:hover{
+  color: #3c40c6;
+}
+
+.mapa .content {
+  padding-bottom: 100px;
+}
+
+.prevadzky-content {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.prevadzky-content img {
+  width: 100%;
+  height: auto;
+}
+
+.prevadzky-content h2 {
+  margin-top: 70px;
+}
+.prevadzka-1 {
+  background-image: url("img/prevadzka1.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.prevadzka-1 p{
+  padding: 20% 10%;
+  color: #3C3D3D;
+  font-size: 36px;
+  background-color:rgba(242, 244, 247, 0.5);
+  text-transform: uppercase;
+}
+
+.prevadzka-1 a{
+  text-decoration: none;
+}
+
+.prevadzka-1 p:hover {
+  background-color:rgba(60, 64, 198, 0.5);
+  color: #f2f4f7;
+}
+
+.prevadzka-2 {
+  background-image: url("img/prevadzka2.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.prevadzka-2 p{
+  padding: 20% 10%;
+  color: #3C3D3D;
+  font-size: 36px;
+  background-color:rgba(242, 244, 247, 0.5);
+  text-transform: uppercase;
+}
+
+.prevadzka-2 a{
+  text-decoration: none;
+}
+
+.prevadzka-2 p:hover {
+  background-color:rgba(60, 64, 198, 0.5);
+  color: #f2f4f7;
+}
+
+.prevadzky-kamenne-body p {
+  color: #1e272e;
+  line-height: 1.6;
+
+}
+
+.blok1 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.blok {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.blok1 img {
+  height: 350px;
+  width: 600px;
+  float: left;
+}
+
+.blok img {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.blok2 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.blok2 img {
+  height: 350px;
+  width: 600px;
+  float: left;
+}
+
+.blok3 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.blok3 img {
+  height: 350px;
+  width: 600px;
+  float: left;
+}
+
+.blok p {
+  padding-top: 40px;
+  height: 200px;
+  line-height: 2.6;
+}
+
+.blok1 p {
+  padding-top: 50px;
+  height: 300px;
+  line-height: 2.6;
+}
+
+.blok2 p {
+  padding-top: 50px;
+  height: 300px;
+  line-height: 2.6;
+}
+
+.blok3 p {
+  padding-top: 50px;
+  height: 300px;
+  line-height: 2.6;
+}
+
+.produkty-body .content {
+  text-align: center;
+}
+.produkty-body p{
+  line-height: 1.6;
+}
+
+.produkty-tabulka{
+  width: 100%;
+  margin-top: 60px;
+  padding: 50px 0;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.produkty-tabulka-1{
+  width: 50%;
+  float: left;
+}
+
+.produkty-tabulka a {
+  text-decoration: none;
+  color: black;
+}
+
+.produkty-tabulka a:hover {
+  color: #f2f4f7;
+}
+.produkty-tabulka-1:hover {
+  background-color: #3c40c6;
+  color: #f2f4f7;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.produkty-tabulka-2{
+  width: 50%;
+  display: inline-block;
+}
+
+.produkty-tabulka-2:hover {
+  background-color: #3c40c6;
+  color: #f2f4f7;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.produkty-tabulka h2{
+  margin: 0;
+  padding: 10px;
+}
+.produkty-tabulka p {
+  margin: 0 15px;
+}
+.mapa-togo {
+  width: 100%;
+}
+
+.mapa-togo img {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.napoje-body .content {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.zrna-body {
+  line-height: 1.6;
+  text-align: center;
+  height: auto;
+}
+
+.zrna-rozdelenie {
+  width: 100%;
+  height: auto;
+}
+
+.zrna-1{
+  width: 50%;
+  float:left;
+  background-color: white;
+}
+
+.zrna-2 {
+  width: 50%;
+  display: inline-block;
+  background-color: white;
+}
+
+.odkazy-main {
+  margin-bottom: 120px;
+}
+#footer {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #3c40c6;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#footer p {
+  margin-top: 30px;
+  color: #f2f2f2;
+  font-size: 10px;
+}
+
+#footer a {
+  font-size: 16px;
+    text-decoration: none;
+    color: #f2f4f7;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#footer a:hover {
+  color: #c6c6c6;
+}
